@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FIAP.CP2.Data\FIAP.CP2.Data.csproj" />
+    <ProjectReference Include="..\FIAP.CP2.Model\FIAP.CP2.Model.csproj" />
+  </ItemGroup>
+
+</Project>
