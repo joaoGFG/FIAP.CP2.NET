@@ -10,6 +10,7 @@ builder.Services.AddControllersWithViews();
 // Registrar os serviços
 builder.Services.AddScoped<IContaService, ContaService>();
 builder.Services.AddScoped<ITransacaoService, TransacaoService>();
+builder.Services.AddScoped<IMetodoPagamentoService, MetodoPagamentoService>();
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseOracle(builder.Configuration.GetConnectionString("DefaultConnection")));

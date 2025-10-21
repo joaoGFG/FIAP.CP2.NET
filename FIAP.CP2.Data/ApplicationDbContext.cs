@@ -7,6 +7,7 @@ namespace FIAP.CP2.Data
     {
         public DbSet<ContaModel> Contas { get; set; }
         public DbSet<TransacaoModel> Transacoes { get; set; }
+        public DbSet<MetodoPagamentoModel> MetodosPagamento { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
