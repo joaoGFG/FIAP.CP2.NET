@@ -5,7 +5,6 @@ namespace FIAP.CP2.Data
 {
     public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : DbContext(options)
     {
-        public DbSet<AlunoModel> Alunos { get; set; }
         public DbSet<ContaModel> Contas { get; set; }
         public DbSet<TransacaoModel> Transacoes { get; set; }
 
